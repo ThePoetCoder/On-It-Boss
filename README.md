@@ -6,7 +6,7 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
 
 ## Quick Start
 
-1. **Install**
+### **Install**
    
    1. Download this project as a zip file
    
@@ -24,11 +24,13 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
    
    6. Open Install.xlsm and click the <u>Install</u> button 
 
-2. **Get an OpenAI API key**
+### **Get an OpenAI API key**
    
-   1. Go to [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys) 
+   1. Go to [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+
    2. Log in / sign up
-   3. Add some money to your account to make API calls with:
+
+   3. Add some money to your account to make API calls:
       
       
       
@@ -71,7 +73,7 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
       
       
 
-3. **Set your key**
+### **Set your key**
    
    - In Excel, on the <u>DATA</u> tab you'll see a new <u>AI Query</u> group right next to the Power Query buttons.
      
@@ -84,7 +86,7 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
      
      
 
-4. **Use it**
+### **Use it**
    
    - Put your data in an Excel Table (Ctrl+T)
      
@@ -156,9 +158,8 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
 
 ## Cost
 
-Requests (including some prompt context, example rows from the data, and your prompt) are sent to OpenAI. API usage is billed by OpenAI under your account. Napkin math I came up with for gpt-5-nano on a small table (fewer columns is better than fewer rows) was ~400 requests for $1.
+Requests (including some prompt context, example rows from the data, and your prompt) are sent to OpenAI. API usage is billed by OpenAI under your account. Napkin math I came up with for gpt-5-nano on a small table (fewer columns is better than fewer rows) was ~400 requests for $1 (but be sure to check in on your own usage every once in a while).
 
 ## License
 
 MIT
-

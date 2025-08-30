@@ -1,0 +1,22 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabData">
+        <group id="grpAI"
+               label="AI Query"
+               insertBeforeMso="GroupSortFilter">
+          <button id="btnOIB"
+                  label="On It, Boss!"
+                  size="large"
+                  imageMso="ReviewNextComment"
+                  onAction="Ribbon_AskAI"/>
+           <button id="btnAPI" 
+                    label="Update API Key" 
+                    size="large" 
+                    imageMso="AdpPrimaryKey" 
+                    onAction="Ribbon_UpdateAPI"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

@@ -40,7 +40,7 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
       
       Choose <u>Billing</u> on the left panel
       
-      img src="./images/openai_billing.png" alt="OpenAI billing">
+      <img src="./images/openai_billing.png" alt="OpenAI billing">
       
       
       
@@ -161,3 +161,4 @@ Requests (including some prompt context, example rows from the data, and your pr
 ## License
 
 MIT
+

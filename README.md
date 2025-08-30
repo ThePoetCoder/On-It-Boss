@@ -136,7 +136,7 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
 
 ## Notes
 
-* As with anything related to LLMs, the better you phrase what you'd like to happen, the better it is able to achieve you goal.
+* As with anything related to LLMs, the better you phrase what you'd like to happen, the better it is able to achieve your goal.
 * Under the hood, the prompt that is sent to the LLM includes the schema of the origin table, the schema of the current table, the current M code, your request, and guidelines on how to best utilize these pieces. If you'd like to debug the traffic, change `mod_Config.DEBUG_CHAT = True` and results will print to the Immediate Window as they become available.
 * Prompt context attempts to keeps changes minimal; starting from your current query's M and appending steps unless otherwise requested.
 * If a generated query fails to parse / refresh correctly, it's rolled back automatically.
@@ -164,5 +164,3 @@ Requests (including some prompt context, example rows from the data, and your pr
 ## License
 
 MIT
-
-

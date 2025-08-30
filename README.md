@@ -1,4 +1,5 @@
 # On It, Boss!
+<img src="./images/icon.png" alt="On It, Boss! Icon" width="600">
 
 Get ChatGPT to transform Excel data for you!
 
@@ -163,4 +164,5 @@ Requests (including some prompt context, example rows from the data, and your pr
 ## License
 
 MIT
+
 

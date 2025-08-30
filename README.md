@@ -12,17 +12,17 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
    
    2. Unzip / Extract
    
-   3. Right-click `Install.xlsm`  and choose <u>Properties</u>
+   3. Right-click `Install.xlsm`  and choose <b>Properties</b>
    
    <img src="./images/pc_file_explorer_properties.png" alt="File properties" width="383">
    
-   4. Check <u>Unblock</u> and click <u>OK</u>
+   4. Check <b>Unblock</b> and click <b>OK</b>
    
    <img src="./images/pc_file_explorer_unblock.png" alt="Unblock file" width="383">
    
    5. Do steps 3 & 4 again for `On It, Boss!.xlam`
    
-   6. Open Install.xlsm and click the <u>Install</u> button 
+   6. Open Install.xlsm and click the <b>Install</b> button 
 
 ### **Get an OpenAI API key**
    
@@ -34,13 +34,13 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
       
       
       
-      Click the <u>Settings</u> Icon at the top right
+      Click the <b>Settings</b> Icon at the top right
       
       <img src="./images/openai_settings.png" alt="OpenAI settings">
       
       
       
-      Choose <u>Billing</u> on the left panel
+      Choose <b>Billing</b> on the left panel
       
       <img src="./images/openai_billing.png" alt="OpenAI billing">
       
@@ -53,13 +53,13 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
       
       
       
-      Choose <u>API keys</u> on the left panel
+      Choose <b>API keys</b> on the left panel
       
       <img src="./images/openai_api_keys.png" alt="OpenAI API keys">
       
       
       
-      Click <u>Create new secret key</u> on the right
+      Click <b>Create new secret key</b> on the right
       
       Fill in any information you'd like:
       
@@ -67,7 +67,7 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
       
       
       
-      <u>Copy</u> your key. Don't click <u>Done</u> yet until you finish the next step in Excel.
+      <b>Copy</b> your key. Don't click <b>Done</b> yet until you finish the next step in Excel.
       
       <img src="./images/openai_save_key.png" alt="Save API key" width="340">
       
@@ -75,12 +75,12 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
 
 ### **Set your key**
    
-   - In Excel, on the <u>DATA</u> tab you'll see a new <u>AI Query</u> group right next to the Power Query buttons.
+   - In Excel, on the <b>DATA</b> tab you'll see a new <b>AI Query</b> group right next to the Power Query buttons.
      
      <img src="./images/xl_api_ribbon.png" alt="Excel ribbon AI Query" width="680">
      
      
-   - Click <u>Update API Key</u>, paste your key in the userform, and click <u>Update</u>.  
+   - Click <b>Update API Key</b>, paste your key in the userform, and click <b>Update</b>.  
      This creates a .env file @ `%APPDATA%\Microsoft\AddIns\.env` with a line:  
      `OPENAI_API_KEY=sk-...`
      
@@ -95,7 +95,7 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
      <img src="./images/xl_finished_tbl.png" alt="Finished table" width="530">
      
      
-   - On the <u>DATA</u> tab click the <u>On It, Boss!</u> button to open the panel interface.
+   - On the <b>DATA</b> tab click the <b>On It, Boss!</b> button to open the panel interface.
      
      <img src="./images/xl_ribbon_oib.png" alt="On It Boss ribbon" width="530">
      
@@ -107,7 +107,7 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
      
      
      
-     Choose a model (gpt-5-nano by default), click <u>Ask AI</u> and it will just do it for you.
+     Choose a model (gpt-5-nano by default), click <b>Ask AI</b> and it will just do it for you.
      
      <img src="./images/xl_uf_done.png" alt="Query done" width="500">
      
@@ -131,7 +131,7 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
      
      
      
-     If you make a step you would like to delete, just select it in the listbox, click the <u>Delete</u> button on your keyboard, and choose which step you would prefer to see.
+     If you make a step you would like to delete, just select it in the listbox, click the <b>Delete</b> button on your keyboard, and choose which step you would prefer to see.
 
 ## Notes
 
@@ -154,7 +154,7 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
 
 ## Uninstall
 
-- Open Install.xlsm and click the button that says "Uninstall"
+- Open Install.xlsm and click the <b>Uninstall</b> button
 
 ## Cost
 
@@ -163,3 +163,4 @@ Requests (including some prompt context, example rows from the data, and your pr
 ## License
 
 MIT
+

@@ -92,7 +92,7 @@ Function NormalizeModelCode( _
     s = Replace(s, "\n", vbLf)              ' literal \n (if any survived)
     s = Replace(s, vbLf, vbCrLf)            ' final: LF -> CRLF
 
-    ' Strip Markdown/code fences if the model ever returns them
+    ' Strip Markdown/code fences
     s = Trim$(s)
     If Left$(s, 3) = "```" Then
         Dim fenceEnd As Long, lfPos As Long, newlineLen As Long

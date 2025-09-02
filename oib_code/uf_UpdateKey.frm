@@ -1,10 +1,10 @@
 VERSION 5.00
 Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} uf_UpdateKey 
    Caption         =   "Update API Key"
-   ClientHeight    =   444
-   ClientLeft      =   -60
-   ClientTop       =   -252
-   ClientWidth     =   2784
+   ClientHeight    =   276
+   ClientLeft      =   -72
+   ClientTop       =   -348
+   ClientWidth     =   2220
    OleObjectBlob   =   "uf_UpdateKey.frx":0000
    ShowModal       =   0   'False
    StartUpPosition =   1  'CenterOwner

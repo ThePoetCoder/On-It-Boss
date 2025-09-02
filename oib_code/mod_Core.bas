@@ -158,7 +158,8 @@ Function BuildChatJSONPayload( _
         "Treat <CURRENT_TABLE_SCHEMA> as the columns produced by CURRENT_M_CODE so far." & vbCrLf & _
         "If the user requests logic that uses a column that does not yet exist, you MUST add an explicit step to create it BEFORE referencing it (e.g., before Table.Group, filters, or joins)." & vbCrLf & _
         "Return a strict MINIFIED JSON object with keys: title (string), language ('m'), code (string)." & vbCrLf & _
-        "No markdown, no backticks, no explanations; only JSON. The code must be valid, self-contained M."
+        "The `code` value MUST be wrapped in triple backticks, like " & mod_String.QUOTE_CHAR & "```m ... ```" & mod_String.QUOTE_CHAR & "." & vbCrLf & _
+        "No explanations, no extra markdown outside of the JSON. The code must be valid, self-contained M."
 
     userMsg = xmlPrompt  ' already built and escaped
 

@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [1.0.1] - 2025-09-01
+
+### Changed
+- Updated README in several places for clarity.
+- Adjusted system prompt to request M code be returned inside backticks.
+- Updated comment in `NormalizeModelCode` to reflect expectation of backticks.
+
+[1.0.1]: https://github.com/ThePoetCoder/On_It_Boss/releases/tag/v1.0.1
+
+
 ## [1.0.0] - 2025-08-30
 
 ### Added

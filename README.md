@@ -153,6 +153,12 @@ Type what you want ("Group by Department and sum Salary"), and this add-in asks 
 - Excel for Windows with Power Query (modern desktop Excel includes it).
 - Internet access and an OpenAI API key.
 
+## Source Code
+
+- Code for the Installer resides in the .xlsm file and is copied to /install_code.
+- Code for the Addin itself resides in the .xlam file and is copied to /oib_code.
+- Tests can be found and run in /oib_code/mod_Tests.bas
+
 ## Uninstall
 
 - Open Install.xlsm and click the <b>Uninstall</b> button
